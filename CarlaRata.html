@@ -79,20 +79,20 @@
     <!-- Contenido oculto -->
     <div class="contenido" id="contenido">
         <h2>¿Porqué la Carla es la mas rata de Natabuela?</h2>
-        <p>Bueno primeramente por sus ojos chuecos son caracteristicos de una rata,
-           cosa que su casa esta en una cloaca que es en Natabuela.</p>
+        <p>Bueno primeramente por sus ojos chuecos son característicos de una rata,
+           cosa que su casa está en una cloaca que es en Natabuela.</p>
         <h2>Aparte es trabada jaj </h2>
 
         <h2>FOTO DE REFERENCIA DE LAS RATAS COMO ELLA</h2>
         <div class="imagenes">
             <img src="Img/CHUECA.jpg" alt="Ojos chuecos" width="200">
-            <p>Practicamente iguales jaajjaajksjaksjka 😹 </p>
+            <p>Prácticamente iguales jaajjaajksjaksjka 😹 </p>
         </div>
 
-        <h1>no olvidar :b </h1>
-        <h2>foto de mis bebes</h2>
+        <h1>No olvidar :b </h1>
+        <h2>Foto de mis bebes</h2>
         <div class="imagenes">
-            <p>Mi preciosa Kitty </p>
+            <p>Mi preciosa Kitty</p>
             <img src="Img/KITTY.jpg" alt="kitty" width="400">
 
             <p>Mi preciosa Galletita</p>
@@ -113,7 +113,7 @@
 
             if (contenido.style.display === "none" || contenido.style.display === "") {
                 contenido.style.display = "block";
-                musica.play(); // Reproduce la música al mostrar el contenido
+                musica.play().catch(() => {}); // Reproduce la música al mostrar el contenido
             } else {
                 contenido.style.display = "none";
                 musica.pause(); // Pausa la música si se oculta
