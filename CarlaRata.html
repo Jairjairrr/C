@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carla la Más Rata</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ebc068;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #000000;
+            text-shadow: 1px 1px 2px #aaa;
+        }
+
+        .boton-acordeon {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            background-color: #ffff10;
+            color: black;
+            border: none;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .boton-acordeon:hover {
+            background-color: #8b1a1a;
+            color: white;
+        }
+
+        .contenido {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 10px;
+            display: none;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            color: #333;
+        }
+
+        .contenido p {
+            line-height: 1.6;
+        }
+
+        .imagenes {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .imagenes img {
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>CARLA LA MAS RATA</h1>
+
+    <!-- Botón que muestra el contenido -->
+    <button class="boton-acordeon" onclick="mostrarContenido()">¿Por qué?</button>
+
+    <!-- Contenido oculto -->
+    <div class="contenido" id="contenido">
+        <h2>¿Porqué la Carla es la mas rata de Natabuela?</h2>
+        <p>Bueno primeramente por sus ojos chuecos son caracteristicos de una rata,
+           cosa que su casa esta en una cloaca que es en Natabuela.</p>
+           <h2>Aparte es trabada jaj </h2>
+
+        <h2>FOTO DE REFERENCIA DE LAS RATAS COMO ELLA</h2>
+        <div class="imagenes">
+            <img src="https://private-user-images.githubusercontent.com/234873497/494825936-adaa12a9-1802-4dee-b08c-838b980023bc.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTkwNDI4ODgsIm5iZiI6MTc1OTA0MjU4OCwicGF0aCI6Ii8yMzQ4NzM0OTcvNDk0ODI1OTM2LWFkYWExMmE5LTE4MDItNGRlZS1iMDhjLTgzOGI5ODAwMjNiYy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkyOFQwNjU2MjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZmJiYzE2ZDgyMjQ1NzQzNjA3NzUwNDNkMTc0ODk4OWI3NmIyMzhmNjk5ZjFlY2Q0OWQxNTk5MzM4ZTNlNWI3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.crgBU7HcPL_8yhhU0AfDzob1sCfyS3fkcwvHcMpl27c" alt="Ojos chuecos" width="200">
+            <img src="https://fotografias-2.larazon.es/clipping/cmsimages01/2022/06/04/3AA16857-2CFE-49C6-8049-6E836BCD9826/96.jpg?crop=566,318,x0,y34&width=1200&height=675&optimize=low&format=webply" alt="Otra imagen" width="400">
+            <p>Practicamente iguales jaajjaajksjaksjka 😹 </p>
+        </div>
+        <h1>no olvidar :b </h1>
+        <h2>foto de mis bebes</h2>
+        <div class="imagenes">
+            <p>Mi preciosa Kitty </p>
+            <img src="https://private-user-images.githubusercontent.com/234873497/494827812-9d2e7345-53db-4e07-b7d4-2698e2913077.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTkwNzMzNTYsIm5iZiI6MTc1OTA3MzA1NiwicGF0aCI6Ii8yMzQ4NzM0OTcvNDk0ODI3ODEyLTlkMmU3MzQ1LTUzZGItNGUwNy1iN2Q0LTI2OThlMjkxMzA3Ny5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkyOFQxNTI0MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZGNjOGE1YzlmY2IyYmZhZjliOGFmYzI0NjhjMTY0NTU4YWNkZjk2ZmU1MDA4ZDJhNGZjMDMyODJhYzJlNGZmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.T4Omw0-HbmFCD7CGb3QpupwhapcMTntW1EG48bqQW0Q" alt="kitty" width="400">
+            <p>Mi preciosa Galletita</p>
+            <img src="https://private-user-images.githubusercontent.com/234873497/494827844-c8d5fb05-9151-4ae5-8885-4de98e52086a.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTkwNzMzNTYsIm5iZiI6MTc1OTA3MzA1NiwicGF0aCI6Ii8yMzQ4NzM0OTcvNDk0ODI3ODQ0LWM4ZDVmYjA1LTkxNTEtNGFlNS04ODg1LTRkZTk4ZTUyMDg2YS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkyOFQxNTI0MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wOWYzOTQ4ZThiMGMzMzViYjU3MzMwMTU3ZjJjMTNjN2EyMTg3MTczMDRkNjRiMGQxZjhiOWNiNTNkNDZlODc1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.jmJCYA__ZIttyczjF2D4oLvKt_oxNjHL1Py2yzdKYBQ" alt="galletita" width="400">
+        </div>
+    </div>
+
+    <!-- Audio oculto -->
+    <audio id="musica" loop>
+        <source src="https://github.com/user-attachments/files/22580761/Mrs.Magic.Strings.Version.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <script>
+        function mostrarContenido() {
+            const contenido = document.getElementById('contenido');
+            const musica = document.getElementById('musica');
+
+            if (contenido.style.display === "none" || contenido.style.display === "") {
+                contenido.style.display = "block";
+                musica.play(); // Reproduce la música al mostrar el contenido
+            } else {
+                contenido.style.display = "none";
+                musica.pause(); // Pausa la música si se oculta
+                musica.currentTime = 0; // Reinicia al inicio
+            }
+        }
+    </script>
+</body>
+</html>
